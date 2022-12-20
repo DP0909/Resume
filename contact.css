@@ -1,0 +1,123 @@
+/*Reusable Component*/
+
+*{
+    margin: 0;
+    padding: 0.5%;
+    box-sizing: border-box;
+    background-color: rgb(231, 231, 231);
+}
+
+
+/*------------------------------*/
+/*--------------Footer Section----------------/
+/*------------------------------*/
+
+footer ion-icon {
+    color: #555;
+    font-size: 190%;
+}
+footer {
+    background-color: #191f24;
+    padding: 30px;
+    font-size: 30px;
+    float: bottom;
+}
+.footer-nav{
+    margin-bottom: 10px;
+    list-style: none;
+    float: bottom;
+    margin-top: 100px;
+}
+.social-links {
+    padding: 0.5%;
+    list-style: none;
+    font-size: 45px;
+    word-spacing: 110px;
+}
+
+.footer-nav li,
+.social-links li{
+    margin-top: 1%;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer p{
+    color: #888;
+    text-align: center;
+    font-size: 80%;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: none;
+    color: #555;
+}
+.footer-nav li a:hover,
+footer-nav li a:active,
+.social-links li a ion-icon:hover,
+.social-links li a ion-icon:active{
+    color: red;
+    transition: color 0.02s;
+}
+
+.footer-nav li :last-child,
+.social-linksli:last-child{
+    margin-right: 0;
+}
+
+/*----Email and Contact NO----*/
+
+.head-main{
+    padding-left: 5%;
+    padding-top: 2%;
+    font-size: 30px;
+    list-style:square;
+}
+
+.head-1-main{
+    font-size: 30px;
+    padding-left: 5%;
+    list-style: square;
+}
+/*-----Phone Application-----*/
+
+@media screen and (max-width: 481px){
+    #main, #subnav{ /*stack the 2 text boxes*/
+            float: left;
+            padding: 0;
+            width: 94%;
+            margin: 3%;
+        }
+    #subnav dt{
+        padding: 0;
+        margin-top: 0;
+    }
+    #subnav{
+        border-right: 1px dotted #aaa;
+        border-bottom: 1px dotted #aaa;
+    }
+    #logo{
+        font-size: 45px;
+    }
+    #menu{
+        text-align: center;
+        padding: 0;
+    }
+    menu li{
+        display: inline-block;
+        margin: 1.25% .5% 1.25% .5%;
+        border-left: 0;
+        padding: 1%;
+        border: 1px solid white;
+    }
+    #menu li a{
+        color:white;
+        text-decoration:none;
+    }
+    }
+
+    

@@ -1,0 +1,70 @@
+/*Reusable Component*/
+
+*{
+    margin: 0;
+    padding: 0.5%;
+    box-sizing: border-box;
+    background-color: rgb(231, 231, 231);
+}
+
+blockquote{
+    padding: 2%;
+    font-size: 35px;
+    font-style: italic;
+    line-height: 145%;
+    margin-top: 40px;
+    position: relative;
+}
+blockquote:before{
+    content: "\201C";
+    font-size: 500%;
+    display:block;
+    position: absolute;
+    top: -4px;
+    left: -36px;
+    color: rgb(0, 136, 255);
+}
+.head-1{
+    padding-left: 2%;
+    font-size: 30px;
+}
+ul.list{
+    list-style: square;
+}
+
+/*-----Phone Application-----*/
+
+@media screen and (max-width: 481px){
+    #main, #subnav{ /*stack the 2 text boxes*/
+            float: left;
+            padding: 0;
+            width: 94%;
+            margin: 3%;
+        }
+    #subnav dt{
+        padding: 0;
+        margin-top: 0;
+    }
+    #subnav{
+        border-right: 1px dotted #aaa;
+        border-bottom: 1px dotted #aaa;
+    }
+    #logo{
+        font-size: 45px;
+    }
+    #menu{
+        text-align: center;
+        padding: 0;
+    }
+    menu li{
+        display: inline-block;
+        margin: 1.25% .5% 1.25% .5%;
+        border-left: 0;
+        padding: 1%;
+        border: 1px solid white;
+    }
+    #menu li a{
+        color:white;
+        text-decoration:none;
+    }
+}
