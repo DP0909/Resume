@@ -128,7 +128,7 @@ input[type="submit"]:hover{
 }
 
 /*------------------------Header------------------------*/
-header{
+.header{
     background-image: linear-gradient(rgba(213, 211, 211, 0.7),rgba(0,0,0,0.7)),
     url(/Users/deepu/Desktop/python/Resume/img/deep.png);
     background-size:cover;
