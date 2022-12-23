@@ -80,8 +80,9 @@ input[type="submit"]
 
 .btn-ghost:link,
 .btn-ghost:visited{
+    background-color: #000000;
     border: 1px solid #000000;
-    color: #fd0000;
+    color: #ffffff;
 }
 .btn-full:hover{
     background-color: #000000;
