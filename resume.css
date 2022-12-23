@@ -188,7 +188,7 @@ menu li{
 }
 body{
     background-image: linear-gradient(rgba(213, 211, 211, 0.7),rgba(0,0,0,0.7)),
-    url(img/deep.png);
+    url(img/deep.PNG);
     background-size:cover;
     background-position:center;
     height: 150vh;
